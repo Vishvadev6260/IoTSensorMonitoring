@@ -193,6 +193,11 @@ class SensorMonitor:
                     c = self._classify(r)
                     self._latest, self._latest_classes = r, c
                     self._log(r, c)
+
+                    # Debugging output to see the readings and classifications
+                    print(f"Sensor readings: {r}")
+                    print(f"Classifications: {c}")
+                
                 time.sleep(self.poll_seconds)
         finally:
             self.cleanup()
