@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "temperature_calibration_offset": -1.5,
+    "poll_seconds": 10,
+    "rotate_seconds": 5
+  },
+  "temperature": { "min": 18.0, "max": 26.0 },
+  "humidity": { "min": 40.0, "max": 60.0 },
+  "pressure": { "min": 1000.0, "max": 1025.0 },
+  "orientation": {
+    "pitch": { "min": -15.0, "max": 15.0 },
+    "roll": { "min": -15.0, "max": 15.0 },
+    "yaw": { "min": -45.0, "max": 45.0 }
+  }
+}
