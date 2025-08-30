@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-import json, sqlite3, time, threading
+import json, sqlite3, time, threading, sys
 from datetime import datetime
 from sense_hat import SenseHat, ACTION_PRESSED
 
@@ -231,3 +231,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
